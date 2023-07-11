@@ -4,6 +4,8 @@ const About = () => {
   return (
     <div className="bg-[#1c1c3a] flex flex-col lg:flex-row items-center px-5  lg:px-[40px] py-6 lg:py-[40px] rounded-[32px] lg:rounded-2xl ">
       <img
+        width="320"
+        height="320"
         src="/profile-pic.webp"
         alt="profile"
         className=" lg:h-[550px] w-[550px]"

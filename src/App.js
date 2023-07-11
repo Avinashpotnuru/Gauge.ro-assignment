@@ -1,6 +1,9 @@
 import "./App.css";
-import About from "./components/About";
-import Details from "./components/Details";
+
+import React from "react";
+
+const About = React.lazy(() => import("./components/About"));
+const Details = React.lazy(() => import("./components/Details"));
 
 function App() {
   return (

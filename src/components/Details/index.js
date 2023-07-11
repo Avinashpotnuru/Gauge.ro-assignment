@@ -4,6 +4,8 @@ const Details = () => {
   return (
     <div className="px-5 py-4 my-6 flex flex-col lg:flex-row justify-center items-center md:px-[35px] ">
       <img
+        width="320"
+        height="320"
         src="/image-2.webp"
         alt="img2"
         className="w-full h-auto lg:order-2 lg:w-1/2 lg:h-[40%] "
