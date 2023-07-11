@@ -1,5 +1,4 @@
 import React from "react";
-// import profilePic from "../../../public/profilepic.webp";
 
 const About = () => {
   return (

@@ -2,10 +2,14 @@ import React from "react";
 
 const Details = () => {
   return (
-    <div className="px-5 py-4 my-6 flex flex-col justify-center items-center ">
-      <img src="/image-2.webp" alt="img2" className="w-full h-auto " />
-      <div>
-        <div className="shadow-2xl flex items-center py-3 px-3 space-x-3 my-4 rounded-2xl mx-auto">
+    <div className="px-5 py-4 my-6 flex flex-col lg:flex-row justify-center items-center md:px-[35px] ">
+      <img
+        src="/image-2.webp"
+        alt="img2"
+        className="w-full h-auto lg:order-2 lg:w-1/2 lg:h-[40%] "
+      />
+      <div className="lg:order-1 lg:w-1/2 space-y-2 md:space-y-4 md:px-5 ">
+        <div className=" shadow-2xl flex items-center py-4 px-3 space-x-3 my-4 rounded-2xl mx-auto w-[340px]">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="18"
@@ -22,10 +26,73 @@ const Details = () => {
             Customers’ Needs Above All Else
           </h1>
         </div>
-        <h1>
+        <h1 className="text-[30px] font-PlusJakarta font-semibold md:text-[40px]">
           Take Control <br />
-          <span>Monitor Usage & Change Filters</span>No Technician Needed
+          <span className="text-[#ff5f55]">
+            Monitor Usage & Change Filters{" "}
+          </span>
+          <br />
+          No Technician Needed
         </h1>
+        <h1 className="text-[16px] text-[#6b6b6b]  font-PlusJakarta font-medium lg:text-[]">
+          We have crafted a product that addresses the real frustrations of a
+          customer. The first step is to ensure there are zero service delays.
+        </h1>
+        <div className="flex items-baseline space-x-2 w-full ">
+          <svg
+            className="pt-4"
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            viewBox="0 0 20 20"
+            fill="none"
+          >
+            <path
+              d="M9.99982 0C4.48655 0 0 4.48568 0 9.99965C0 15.5136 4.48626 20 9.99982 20C15.5143 20 19.9997 15.5139 19.9997 9.99965C19.9997 4.48568 15.5146 0 9.99982 0ZM14.3277 7.95082L9.09047 13.1881C8.93322 13.3451 8.72599 13.4244 8.52068 13.4244C8.31379 13.4244 8.10848 13.3452 7.9507 13.1881L5.67298 10.9103C5.35806 10.5951 5.35806 10.0853 5.67298 9.77046C5.98783 9.4556 6.49766 9.4556 6.81257 9.77046L8.52068 11.4791L13.1888 6.81076C13.503 6.49626 14.0128 6.49626 14.3277 6.81076C14.6426 7.12614 14.6426 7.63597 14.3277 7.95082Z"
+              fill="#39C69B"
+            ></path>
+          </svg>
+          <div>
+            <h1 className="text-[20px]   font-PlusJakarta font-bold lg:text-[]">
+              Smart Water Purifier With Self Servicing Capability
+            </h1>
+            <h1 className="text-[16px] text-[#6b6b6b] my-2 font-PlusJakarta font-medium lg:text-[]">
+              Say goodbye to the hassle of scheduling a technician for purifier
+              maintenance with our
+              <span className="font-bold px-1">self-replacing </span> filters.
+            </h1>
+          </div>
+        </div>
+        <div className="flex items-baseline space-x-2 w-full ">
+          <svg
+            className="pt-4"
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            viewBox="0 0 20 20"
+            fill="none"
+          >
+            <path
+              d="M9.99982 0C4.48655 0 0 4.48568 0 9.99965C0 15.5136 4.48626 20 9.99982 20C15.5143 20 19.9997 15.5139 19.9997 9.99965C19.9997 4.48568 15.5146 0 9.99982 0ZM14.3277 7.95082L9.09047 13.1881C8.93322 13.3451 8.72599 13.4244 8.52068 13.4244C8.31379 13.4244 8.10848 13.3452 7.9507 13.1881L5.67298 10.9103C5.35806 10.5951 5.35806 10.0853 5.67298 9.77046C5.98783 9.4556 6.49766 9.4556 6.81257 9.77046L8.52068 11.4791L13.1888 6.81076C13.503 6.49626 14.0128 6.49626 14.3277 6.81076C14.6426 7.12614 14.6426 7.63597 14.3277 7.95082Z"
+              fill="#39C69B"
+            ></path>
+          </svg>
+          <div>
+            <h1 className="text-[20px]   font-PlusJakarta font-bold lg:text-[]">
+              Compensation For Service Delays
+            </h1>
+            <h1 className="text-[16px] text-[#6b6b6b] my-2  font-PlusJakarta font-medium lg:text-[]">
+              You are entitled to a compensation of{" "}
+              <span className="font-bold px-1"> 100 Rs/Day </span> if service is
+              delayed for more than 24 hours.
+            </h1>
+          </div>
+        </div>
+        <div className="text-center">
+          <button className="bg-[#3b82f6] py-4 my-6 px-12 rounded-3xl font-PlusJakarta  hover:opacity-90 text-white font-bold text-base">
+            Next: Smart Water Conservation
+          </button>
+        </div>
       </div>
     </div>
   );
